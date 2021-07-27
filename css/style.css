@@ -218,7 +218,7 @@ header a{
   -moz-transition: 0.3s all ease;
   -o-transition: .3s all ease;
   z-index: 99999999;
-  border: 1px solid #676767;
+  border: 1px solid #6FB1A7;
 }
 .expande:hover {
   -moz-transform: scale(1);
@@ -229,7 +229,7 @@ header a{
 .lastb{
 	padding: 30px;
 	background-color: #6FB1A7;
-    border: 1px solid #676767;
+    border: 1px solid #6FB1A7;
     border-radius: 10px;
     height: 340px;
     width: 520px;
