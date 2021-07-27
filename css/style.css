@@ -1,3 +1,11 @@
+html {
+	scroll-behavior: smooth;
+}
+
+html * {
+	scroll-margin-top: 55px;
+}
+
 body{
 	margin: 0;
 	padding: 0;
@@ -9,6 +17,9 @@ header{
 	height: 55px;
 	display: flex;
 	align-items: center;
+	position: fixed;
+    width: 100%;
+    z-index: 10;
 }
 header a{
 	color: #000;
@@ -18,7 +29,12 @@ header a{
 }
 .mobile{
 	display: none;
+	position: fixed;
+    width: 100%;
+    background: #ffffff;
+	z-index: 9999999999;
 }
+
 .mont{
 	font-family: 'Montserrat', sans-serif;
 }
@@ -76,6 +92,8 @@ header a{
 }
 .social{
 	width: 126px;
+	display: flex;
+    justify-content: space-around;
 }
 .social img{
 	width: 28px;
@@ -120,6 +138,7 @@ header a{
 	display: block;
 	line-height: 25px;
 	text-align: center;
+	max-width: 900px;
 }
 .button{
 	background: #9FFCEE;
@@ -133,6 +152,7 @@ header a{
 	text-align: center;
 	text-decoration: none;
 }
+
 .why h1{
 	width: 60%;
 	margin: 60px auto 10px;
@@ -200,6 +220,7 @@ header a{
 }
 .more {
 	text-align: left;
+	display: none;
 }
 .more a{
 	color: #6FB1A7;
@@ -313,6 +334,12 @@ header a{
 	display: flex;
 	justify-content: space-between;
 	margin: 30px 0 0 0;
+	align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 30px 0 0 0;
+
 }
 .share > div{
     align-items: center;
@@ -494,6 +521,7 @@ footer .container{
 
 /* Send */
 .send{
+	display: none;
 	margin: 0 0 140px;
 }
 .send .dflex{
@@ -588,12 +616,17 @@ footer .container{
 	}
 }
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+	html * {
+		scroll-margin-top: 104px;
+	}
+	
 	.desktop{
 		display: none;
 	}
 	.mobile{
 		display: block;
 	}
+
 	.mobile > div{
 		display: flex;
 		justify-content: space-between;
@@ -666,6 +699,11 @@ footer .container{
 		font-size: 20px;
 		line-height: 22px;
 	}
+
+	.banner1 {
+		padding-top: 70px;
+	}
+
 	.button{
 		width: 100%;
 	}
