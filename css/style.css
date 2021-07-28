@@ -355,6 +355,12 @@ header a{
 	font-weight: bold;
 	margin: 5px 0px;
 }
+
+.share div div > p a {
+	color: #000000;
+    text-decoration: none;
+}
+
 .address, .mail{
 	text-align: center;
 }
