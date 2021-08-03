@@ -83,8 +83,9 @@ header a{
 	display: flex;
 	align-items: center;
 }
-.logo img{
+.logo img{ 
 	width: 70%;
+	max-width: 147px;
 }
 .menu{
 	max-width: 500px;
