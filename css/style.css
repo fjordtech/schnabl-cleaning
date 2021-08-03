@@ -253,15 +253,16 @@ header a{
 	background-color: #6FB1A7;
     border: 1px solid #6FB1A7;
     border-radius: 10px;
-    height: 240px;
-    width: 100%;
-	margin-top: 10px;
+    height: 340px;
+    width: auto;
+	margin: 0px 0px 0px 10px;
 }
 .lastb > div{
 	display: flex;
     flex-direction: column;
     padding: 0px 25px;
-    align-items: center;
+    margin: 40px 0px;
+    align-items: flex-start;
 }
 .lastb h3{
 	color: #ffffff;
@@ -398,6 +399,7 @@ footer{
 	padding: 80px 0px 40px;
 }
 footer .container{
+	border-top: 1px solid #aaaaaa;
 	border-bottom: 1px solid #aaaaaa;
 	padding-bottom: 30px;
 }
@@ -719,7 +721,7 @@ footer .container{
 		width: 100%;
 	}
 	.content{
-		flex-wrap: wrap;
+		/* flex-wrap: wrap; */
 		justify-content: center;
 	}
 	.seg{
@@ -866,4 +868,8 @@ footer .container{
 		margin: 30px auto 0; 
 	}
 
+}
+
+.hide{
+	display: none;
 }
