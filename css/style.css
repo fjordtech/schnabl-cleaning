@@ -795,11 +795,12 @@ footer .container{
 	.bf-img{
 		flex-direction: column;
 		align-items: center;
-		width: 90%;
+		width: 100%;
 	}
 	.bf-img > div {
 		padding: 0;
-		width: 60%;
+		width: 65%;
+		height: 100%;
 		margin-bottom: 20px;
 	}
 	.bf-img > div:first-child, .bf-img > div:last-child {
