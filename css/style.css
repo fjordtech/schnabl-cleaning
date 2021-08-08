@@ -211,14 +211,12 @@ header a{
 .title {
   font-size: 22px;
   color: #0F1123;
-  padding-top: 30px;
   text-align: left;
 }
 .desc {
-  font-size: 14px;
+  font-size: 13px;
   color: #393E46;
   text-align: left;
-  line-height: 22px;
 }
 .more {
 	text-align: left;
