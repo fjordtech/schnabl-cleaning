@@ -282,6 +282,9 @@ header a{
 .we .container{
 	display: flex;
 	margin-top: 20px;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
 }
 .we .container > div:first-child{
 	display: flex;
