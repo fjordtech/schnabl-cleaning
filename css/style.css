@@ -209,6 +209,7 @@ header a{
   height: 150px;
 }
 .title {
+  margin: 0;
   font-size: 22px;
   color: #0F1123;
   text-align: left;
