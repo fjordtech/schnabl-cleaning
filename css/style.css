@@ -793,7 +793,16 @@ footer .container{
 		width: 75%;
 	}
 	.bf-img{
+		flex-direction: column;
 		width: 90%;
+	}
+	.bf-img > div {
+		padding: 0;
+		width: 60%;
+		margin-bottom: 20px;
+	}
+	.bf-img > div:first-child, .bf-img > div:last-child {
+		padding-top: 0;
 	}
 	.service{
 		margin-bottom: 90px;
