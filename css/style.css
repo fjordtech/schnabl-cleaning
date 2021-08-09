@@ -462,9 +462,16 @@ footer .container{
 	width: 70%;
 	margin: 60px auto 20px;
 }
-.bf-img, .bf-img > div{
+
+.bf-img, .bf-img > div {
 	display: flex;
+	align-items: center;
 }
+
+.bf-img, .bf-img > div img {
+	max-width: 100%;
+}
+
 .bf-img > div:first-child,
 .bf-img > div:last-child{
 	padding-top: 70px;
